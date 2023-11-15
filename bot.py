@@ -2,7 +2,7 @@ import telebot
 from helper import CheggHelper
 import os
 
-bot = telebot.TeleBot('YOUR_BOT_TOKEN', parse_mode=None)
+bot = telebot.TeleBot('6172595876:AAFP_EQEObCom7iyoXy57T35K_5lfGWvaY8', parse_mode=None)
 obj = CheggHelper()
 
 @bot.message_handler(commands=['ans'])
